@@ -1,0 +1,8 @@
+{
+    "name": "Disable kalman filter on Jolla C",
+    "description": "Improve touchscreen responsiveness by disabling kalman filter",
+    "category": "other",
+    "infos": {
+        "maintainer": "toxip"
+    }
+}
