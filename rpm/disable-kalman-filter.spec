@@ -35,3 +35,7 @@ fi
 
 %preun
 /usr/sbin/patchmanager -u %{name} || true
+
+%changelog
+* Tue Oct 3 2017 Topias Vainio <toxip@disroot.org> 0.1-1
+- Initial release
