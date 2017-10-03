@@ -1,7 +1,7 @@
-Name:       disable-kalman-filter
+Name:       disable-kalman-filter-inoir7
 Version:    0.1
 Release:    1%{?dist}
-Summary:    Patch to disable kalman filter on Jolla C
+Summary:    Patch to disable kalman filter on Inoi R7
 License:    LGPLv2
 Source:     %{name}.tar.gz
 URL:        https://github.com/toxip/disable-kalman-filter
@@ -11,7 +11,7 @@ Requires:   patchmanager
 Requires:   sailfish-version >= 2.1.0
 
 %description
-Improves screen responsiveness on Jolla C by disabling kalman filter
+Improves screen responsiveness on Inoi R7 by disabling kalman filter
 
 %define debug_package %{nil}
 
