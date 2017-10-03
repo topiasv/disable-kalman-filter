@@ -1,5 +1,5 @@
 {
-    "name": "Disable kalman filter on Jolla C",
+    "name": "Disable kalman filter on Jolla C/AquaFish",
     "description": "Improve touchscreen responsiveness by disabling kalman filter",
     "category": "other",
     "infos": {

@@ -1,7 +1,7 @@
 Name:       disable-kalman-filter
 Version:    0.1
-Release:    1%{?dist}
-Summary:    Patch to disable kalman filter on Jolla C
+Release:    2%{?dist}
+Summary:    Patch to disable kalman filter on Jolla C/AquaFish
 License:    LGPLv2
 Source:     %{name}.tar.gz
 URL:        https://github.com/toxip/disable-kalman-filter
@@ -11,7 +11,7 @@ Requires:   patchmanager
 Requires:   sailfish-version >= 2.1.0
 
 %description
-Improves screen responsiveness on Jolla C by disabling kalman filter
+Improves screen responsiveness on Jolla C/AquaFish by disabling kalman filter
 
 %define debug_package %{nil}
 
@@ -37,5 +37,8 @@ fi
 /usr/sbin/patchmanager -u %{name} || true
 
 %changelog
+* Tue Oct 3 2017 Topias Vainio <toxip@disroot.org> 0.1-2
+- Updated information to reflect that this works on Aqua Fish too.
+
 * Tue Oct 3 2017 Topias Vainio <toxip@disroot.org> 0.1-1
 - Initial release
