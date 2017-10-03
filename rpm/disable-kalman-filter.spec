@@ -4,7 +4,7 @@ Release:    1%{?dist}
 Summary:    Patch to disable kalman filter on Inoi R7
 License:    LGPLv2
 Source:     %{name}.tar.gz
-URL:        https://github.com/toxip/disable-kalman-filter
+URL:        https://github.com/toxip/disable-kalman-filter/tree/inoi
 BuildArch:  noarch
 Packager:   toxip
 Requires:   patchmanager
